@@ -16,9 +16,8 @@ name: Web Preview
 # self-identify as the hosted app.
 
 on:
-  pull_request:
-    types: [labeled, synchronize, reopened]
-
+  push:
+    branches: [main]
 permissions:
   contents: read
   pull-requests: write
