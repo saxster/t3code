@@ -1,6 +1,8 @@
 name: Mobile Showcase Screenshots
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
     inputs:
       platform:
